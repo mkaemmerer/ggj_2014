@@ -2,19 +2,34 @@
 using System.Collections;
 
 public class PlayerCarControl : MonoBehaviour {
-
-	public float turnSensitivity = 1.0f;
-	private CarControl control;
-
-	void Start(){
-		control = gameObject.GetComponent<CarControl>();
+	
+	// Use this for initialization
+	void Start () {
+		
 	}
+	
+	// Update is called once per frame
+	void Update () {
 
-	void Update(){
-		float accel = Input.GetButton("Accelerate") ? 1.0f : 0.01f;
-		float turn  = Input.GetAxis("Horizontal") * turnSensitivity;
-		Vector3 target = Vector3.RotateTowards(transform.forward, transform.right, turn, 0.0f) * accel;
+		const float forwardForce = 1000;
+		float timeMultiplier = Time.deltaTime;
 
-		control.SendMessage("OnDrive", target);
+		bool goForward = Input.GetKey (KeyCode.W);
+		bool goBack = Input.GetKey (KeyCode.S);
+		float haxis = Input.GetAxis ("Horizontal");
+
+		// Faster the car goes, smaller the multiplier.
+		float maxWheelRotate = 45 * 1;
+		float reverseMultiplier = .4f;
+
+		bool onGround = true;
+
+		// The care is backward-facing, throwing in -1 for now.
+		if (onGround && goForward)
+			rigidbody.AddRelativeForce (transform.forward * (-1*forwardForce * timeMultiplier));
+		else if (onGround && goBack)
+			rigidbody.AddRelativeForce (transform.forward * (-1*-forwardForce * timeMultiplier * reverseMultiplier));
+
+		transform.Rotate (Vector3.forward, haxis * maxWheelRotate * timeMultiplier, Space.Self);
 	}
 }
