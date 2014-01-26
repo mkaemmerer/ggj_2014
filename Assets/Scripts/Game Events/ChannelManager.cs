@@ -6,7 +6,11 @@ public class ChannelManager : MonoBehaviour {
 	private LayerMask currentLayer;
 	private LayerMask currentGhostLayer;
 
-	private void Start (){
+	public LayerMask CurrentLayer {
+		get{ return currentLayer; }
+	}
+
+	private void Awake (){
 		currentLayer      = LayerMask.NameToLayer("Channel 1");
 		currentGhostLayer = LayerMask.NameToLayer("Channel 2 Ghost");
 	}
