@@ -3312,8 +3312,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   engineOutput: {fileID: 136297747}
   tireOutput: {fileID: 136297746}
-  squealMin: 0
-  squealMax: 0
 --- !u!1001 &137386066
 Prefab:
   m_ObjectHideFlags: 0
@@ -4915,6 +4913,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSensitivity: 1
+  minTurnSpeed: .5
+  maxTurnSpeed: .699999988
+  screechThresh: .600000024
+  turnAcceleration: .100000001
+  curTurnSpeed: 0
 --- !u!114 &208226152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5191,8 +5194,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   engineOutput: {fileID: 208226155}
   tireOutput: {fileID: 208226154}
-  squealMin: 0
-  squealMax: 0
 --- !u!114 &208226159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26571,8 +26572,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   engineOutput: {fileID: 1351035344}
   tireOutput: {fileID: 1351035343}
-  squealMin: .5
-  squealMax: 1.5
 --- !u!1 &1353918768
 GameObject:
   m_ObjectHideFlags: 0
