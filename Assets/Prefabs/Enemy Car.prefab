@@ -175,8 +175,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_LocalRotation: {x: 0, y: .707106888, z: 0, w: .707106769}
-  m_LocalPosition: {x: 51.9854355, y: 0, z: 41.4179916}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 58.9179993, y: .167770371, z: 40.9511223}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -193,7 +193,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: edec78bfd63f348ec8eb9e2f8e9c941a, type: 2}
+  - {fileID: 2100000, guid: ab35445fd799947c08d1d539530ed73e, type: 2}
   - {fileID: 2100000, guid: 050f59eeaf322465b9af2b679920b752, type: 2}
   - {fileID: 2100000, guid: 9fc68621effac4812b95c6ce7be47359, type: 2}
   - {fileID: 2100000, guid: ca2a9c917d2e84404b472dd66d581b29, type: 2}
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68aa33efcd57d43bfbb8ffe604f2098e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 10
+  seconds: 15
   hasRemote: 1
 --- !u!114 &11400006
 MonoBehaviour:
