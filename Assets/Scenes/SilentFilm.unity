@@ -895,7 +895,7 @@ GameObject:
   - 4: {fileID: 156730452}
   - 33: {fileID: 156730454}
   - 23: {fileID: 156730453}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Wheel_Back_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3205,7 +3205,7 @@ GameObject:
   - 4: {fileID: 543113281}
   - 33: {fileID: 543113283}
   - 23: {fileID: 543113282}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Wheel_Front_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3852,13 +3852,15 @@ GameObject:
   m_Component:
   - 4: {fileID: 652531441}
   - 20: {fileID: 652531446}
-  - 92: {fileID: 652531445}
   - 124: {fileID: 652531444}
+  - 92: {fileID: 652531445}
   - 81: {fileID: 652531443}
+  - 114: {fileID: 652531448}
+  - 45: {fileID: 652531447}
   - 114: {fileID: 652531442}
-  m_Layer: 8
-  m_Name: Main Camera
-  m_TagString: MainCamera
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3870,7 +3872,7 @@ Transform:
   m_PrefabInternal: {fileID: 802662730}
   m_GameObject: {fileID: 652531440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .600374222, z: -2.12152863}
+  m_LocalPosition: {x: 1.8652463e-07, y: .444876671, z: -1.56468189}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1507486367}
@@ -3883,9 +3885,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 652531440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b3f201a6ebfa4bc1a6c9174bf6332a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 34f68e43539024b06a9743cc67aabf36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skyboxes:
+  - {fileID: 2100000, guid: a2995c151ba6f48ee8adf66a3bc8f9d5, type: 2}
+  - {fileID: 2100000, guid: 11f9b9574aa5b4c96be254e0a736107e, type: 2}
+  - {fileID: 2100000, guid: d461210d3a415410181aa5201e0aa5ce, type: 2}
 --- !u!81 &652531443
 AudioListener:
   m_ObjectHideFlags: 0
@@ -3920,19 +3926,19 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1
     height: 1
-  near clip plane: .00999999978
+  near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 256
@@ -3940,6 +3946,27 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
   m_OcclusionCulling: 1
+--- !u!45 &652531447
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4500000, guid: 53de86cb8071d4d8ba3b917ac92ba282,
+    type: 2}
+  m_PrefabInternal: {fileID: 802662730}
+  m_GameObject: {fileID: 652531440}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 5aab239cac7fe8a4c931693a7535da5c, type: 2}
+--- !u!114 &652531448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: 53de86cb8071d4d8ba3b917ac92ba282,
+    type: 2}
+  m_PrefabInternal: {fileID: 802662730}
+  m_GameObject: {fileID: 652531440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3f201a6ebfa4bc1a6c9174bf6332a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &674501676
 GameObject:
   m_ObjectHideFlags: 0
@@ -5068,7 +5095,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53de86cb8071d4d8ba3b917ac92ba282, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .707106829
+      value: .707106888
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53de86cb8071d4d8ba3b917ac92ba282, type: 2}
       propertyPath: m_LocalRotation.z
@@ -5076,7 +5103,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53de86cb8071d4d8ba3b917ac92ba282, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .707106709
+      value: .707106769
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53de86cb8071d4d8ba3b917ac92ba282, type: 2}
@@ -6237,7 +6264,7 @@ GameObject:
   - 4: {fileID: 969753525}
   - 33: {fileID: 969753527}
   - 23: {fileID: 969753526}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Wheel_Front_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6337,7 +6364,7 @@ GameObject:
   - 33: {fileID: 1057953628}
   - 23: {fileID: 1057953627}
   - 95: {fileID: 1057953626}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8686,7 +8713,7 @@ GameObject:
   - 4: {fileID: 1376987961}
   - 33: {fileID: 1376987960}
   - 23: {fileID: 1376987959}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Wheel_Back_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9511,8 +9538,8 @@ Transform:
   m_LocalPosition: {x: 45.8729401, y: 0, z: 40.2559624}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 900300556}
   - {fileID: 652531441}
+  - {fileID: 900300556}
   m_Father: {fileID: 0}
 --- !u!65 &1507486368
 BoxCollider:
@@ -9741,7 +9768,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 139233574a39a493cb733c4dbf3441a8, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .707106829
+      value: .707106888
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 139233574a39a493cb733c4dbf3441a8, type: 2}
       propertyPath: m_LocalRotation.z
@@ -9749,7 +9776,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 139233574a39a493cb733c4dbf3441a8, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .707106709
+      value: .707106769
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 139233574a39a493cb733c4dbf3441a8, type: 2}
@@ -12672,7 +12699,7 @@ GameObject:
   - 114: {fileID: 1981603611}
   - 54: {fileID: 1981603608}
   - 65: {fileID: 1981603607}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Enemy Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12746,7 +12773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba29431ab6bbe47f99f7d4a6e0cdbea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 5
+  minDistance: 3
 --- !u!114 &1981603611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12772,7 +12799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seconds: 10
-  hasRemote: 1
+  hasRemote: 0
 --- !u!1 &1998567235
 GameObject:
   m_ObjectHideFlags: 0
