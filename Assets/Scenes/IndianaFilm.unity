@@ -2394,7 +2394,7 @@ GameObject:
   - 23: {fileID: 306819938}
   - 33: {fileID: 306819937}
   m_Layer: 11
-  m_Name: Adventure Road
+  m_Name: Adventure Road Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4953,47 +4953,47 @@ Transform:
   m_LocalPosition: {x: 40.9537926, y: 8.69169426, z: 24.0267067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 380444384}
+  - {fileID: 1776031690}
+  - {fileID: 1145620348}
   - {fileID: 535788644}
   - {fileID: 572818242}
-  - {fileID: 1829526137}
-  - {fileID: 1502003556}
-  - {fileID: 1542621946}
+  - {fileID: 1881428022}
   - {fileID: 814316872}
   - {fileID: 1074172733}
-  - {fileID: 1776031690}
+  - {fileID: 1502003556}
   - {fileID: 831401498}
-  - {fileID: 1145620348}
-  - {fileID: 1474807552}
-  - {fileID: 1881428022}
+  - {fileID: 1542621946}
   - {fileID: 438026304}
-  - {fileID: 668505500}
-  - {fileID: 2080137325}
-  - {fileID: 1614866951}
-  - {fileID: 185740658}
-  - {fileID: 1124530}
-  - {fileID: 900770849}
-  - {fileID: 866687029}
-  - {fileID: 1569003645}
-  - {fileID: 289677851}
+  - {fileID: 1829526137}
+  - {fileID: 380444384}
+  - {fileID: 1474807552}
   - {fileID: 578883945}
-  - {fileID: 1374855930}
-  - {fileID: 682938768}
-  - {fileID: 872552293}
+  - {fileID: 1991632233}
+  - {fileID: 185740658}
   - {fileID: 268888177}
-  - {fileID: 249409450}
-  - {fileID: 524177443}
+  - {fileID: 668505500}
+  - {fileID: 120800525}
+  - {fileID: 1569003645}
   - {fileID: 1044792451}
   - {fileID: 560541833}
+  - {fileID: 289677851}
   - {fileID: 1579621478}
-  - {fileID: 1229272880}
-  - {fileID: 254048536}
-  - {fileID: 1442154081}
-  - {fileID: 120800525}
   - {fileID: 1893946353}
-  - {fileID: 1991632233}
+  - {fileID: 1229272880}
   - {fileID: 784452325}
+  - {fileID: 1374855930}
+  - {fileID: 866687029}
+  - {fileID: 1124530}
+  - {fileID: 1614866951}
+  - {fileID: 682938768}
+  - {fileID: 249409450}
   - {fileID: 1512942920}
+  - {fileID: 872552293}
+  - {fileID: 2080137325}
+  - {fileID: 1442154081}
+  - {fileID: 900770849}
+  - {fileID: 254048536}
+  - {fileID: 524177443}
   m_Father: {fileID: 0}
 --- !u!1 &665522815
 GameObject:
@@ -7110,8 +7110,8 @@ Transform:
   m_Children:
   - {fileID: 655105635}
   - {fileID: 2114382371}
-  - {fileID: 1186117138}
   - {fileID: 306819940}
+  - {fileID: 1186117138}
   m_Father: {fileID: 0}
 --- !u!1001 &977653519
 Prefab:
