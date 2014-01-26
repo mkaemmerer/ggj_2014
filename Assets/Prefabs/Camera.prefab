@@ -96,9 +96,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skyboxes:
-  - {fileID: 2100000, guid: 931987be26c9646429c56f8a4692bb81, type: 2}
-  - {fileID: 2100000, guid: a2126534b3a11b34e977105bd9e3cc03, type: 2}
-  - {fileID: 2100000, guid: 5aab239cac7fe8a4c931693a7535da5c, type: 2}
+  - {fileID: 2100000, guid: 11f9b9574aa5b4c96be254e0a736107e, type: 2}
+  - {fileID: 2100000, guid: 11f9b9574aa5b4c96be254e0a736107e, type: 2}
+  - {fileID: 2100000, guid: 11f9b9574aa5b4c96be254e0a736107e, type: 2}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
