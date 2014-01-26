@@ -10,26 +10,33 @@ public class PlayerCarControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-		const float forwardForce = 1000;
+		
+		const float forwardForce = 600;
 		float timeMultiplier = Time.deltaTime;
-
+		
+		bool goForward = Input.GetKey (KeyCode.W);
+		bool goBack = Input.GetKey (KeyCode.S);
 		float haxis = Input.GetAxis ("Horizontal");
-		float vaxis = Input.GetAxis ("Vertical");
-		bool goForward = vaxis > 0;
-		bool goBack = vaxis < 0;
-
+		
 		// Faster the car goes, smaller the multiplier.
-		float maxWheelRotate = 45 * 1;
-		float reverseMultiplier = .4f;
-
+		float maxWheelRotate = 90 * 1;
+		float reverseMultiplier = .6f;
+		
 		bool onGround = true;
-
+		
+		// The car is backward-facing, throwing in -1 for now.
 		if (onGround && goForward)
-			rigidbody.AddForce (transform.forward * (forwardForce * timeMultiplier));
+			rigidbody.AddRelativeForce (transform.forward * (-1*forwardForce * timeMultiplier));
 		else if (onGround && goBack)
-			rigidbody.AddForce (transform.forward * (-forwardForce * timeMultiplier * reverseMultiplier));
-
-		transform.Rotate (Vector3.up, haxis * maxWheelRotate * timeMultiplier, Space.Self);
+			rigidbody.AddRelativeForce (transform.forward * (-1*-forwardForce * timeMultiplier * reverseMultiplier));
+		
+		float radians = haxis * maxWheelRotate * (Mathf.PI/180f);
+		float lateral = (rigidbody.velocity.magnitude * Mathf.Sin (radians));
+		
+		transform.Rotate (Vector3.forward, haxis * maxWheelRotate * timeMultiplier, Space.Self);
+		//transform.Translate (Vector3.right * lateral * timeMultiplier, Space.Self);
+		//rigidbody.velocity.RotateAroundPoint (transform.position, radians);
+		rigidbody.velocity = rigidbody.velocity.RotateAroundPoint (Vector3.zero, radians * timeMultiplier);
 	}
+	
 }
