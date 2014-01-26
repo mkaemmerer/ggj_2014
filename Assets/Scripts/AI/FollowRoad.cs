@@ -23,6 +23,9 @@ public class FollowRoad : MonoBehaviour {
 	void OnTriggerEnter(){
 		target = GetNextTarget();
 	}
+	void OnChannelChange(){
+		target = GetNextTarget();
+	}
 
 	private Vector3 GetNextTarget(){
 		GameObject closestCheckpoint = null;
