@@ -15,6 +15,11 @@ public class ChannelManager : MonoBehaviour {
 		currentGhostLayer = LayerMask.NameToLayer("Channel 2 Ghost");
 	}
 
+	private void Start(){
+		BroadcastMessage("OnChannelChange", currentLayer, SendMessageOptions.DontRequireReceiver);
+		BroadcastMessage("OnGhostChannelChange", currentGhostLayer, SendMessageOptions.DontRequireReceiver);
+	}
+
 	public void ChangeChannel () {
 		currentLayer = GetNextLayer();
 		currentGhostLayer = GetNextGhostLayer();
@@ -37,13 +42,13 @@ public class ChannelManager : MonoBehaviour {
 	}
 
 	private LayerMask GetNextGhostLayer(){
-		if(currentLayer == LayerMask.NameToLayer("Channel 1 Ghost")){
+		if(currentGhostLayer == LayerMask.NameToLayer("Channel 1 Ghost")){
 			return LayerMask.NameToLayer("Channel 2 Ghost");
 		}
-		if(currentLayer == LayerMask.NameToLayer("Channel 2 Ghost")){
-			return LayerMask.NameToLayer("Channel 3");
+		if(currentGhostLayer == LayerMask.NameToLayer("Channel 2 Ghost")){
+			return LayerMask.NameToLayer("Channel 3 Ghost");
 		}
-		if(currentLayer == LayerMask.NameToLayer("Channel 3 Ghost")){
+		if(currentGhostLayer == LayerMask.NameToLayer("Channel 3 Ghost")){
 			return LayerMask.NameToLayer("Channel 1 Ghost");
 		}
 		return currentGhostLayer;

@@ -7,7 +7,7 @@ public class ShowSky : MonoBehaviour {
 	private Camera cam;
 	private Skybox skybox;
 	
-	void Start(){
+	void Awake(){
 		cam    = gameObject.GetComponent<Camera>();
 		skybox = gameObject.GetComponent<Skybox>();
 
