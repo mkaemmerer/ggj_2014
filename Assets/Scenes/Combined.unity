@@ -200,6 +200,8 @@ GameObject:
   - 95: {fileID: 10246273}
   - 65: {fileID: 10246272}
   - 54: {fileID: 10246271}
+  - 114: {fileID: 10246275}
+  - 82: {fileID: 10246274}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -264,6 +266,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &10246274
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 742587543}
+  m_GameObject: {fileID: 10246269}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &10246275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 742587543}
+  m_GameObject: {fileID: 10246269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 10246274}
+  collisionSoundLength: 1
 --- !u!1001 &11111745
 Prefab:
   m_ObjectHideFlags: 0
@@ -884,6 +959,8 @@ GameObject:
   - 95: {fileID: 46233857}
   - 65: {fileID: 46233856}
   - 54: {fileID: 46233855}
+  - 114: {fileID: 46233859}
+  - 82: {fileID: 46233858}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -948,6 +1025,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &46233858
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 2098808989}
+  m_GameObject: {fileID: 46233853}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &46233859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 2098808989}
+  m_GameObject: {fileID: 46233853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 46233858}
+  collisionSoundLength: 1
 --- !u!1 &46769549
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,6 +1109,8 @@ GameObject:
   - 95: {fileID: 46769553}
   - 54: {fileID: 46769552}
   - 65: {fileID: 46769551}
+  - 114: {fileID: 46769555}
+  - 82: {fileID: 46769554}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -1023,6 +1175,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &46769554
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1284791008}
+  m_GameObject: {fileID: 46769549}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &46769555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1284791008}
+  m_GameObject: {fileID: 46769549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 46769554}
+  collisionSoundLength: 1
 --- !u!1001 &49634230
 Prefab:
   m_ObjectHideFlags: 0
@@ -1195,6 +1420,8 @@ GameObject:
   - 95: {fileID: 58085251}
   - 65: {fileID: 58085250}
   - 54: {fileID: 58085249}
+  - 114: {fileID: 58085253}
+  - 82: {fileID: 58085252}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -1259,6 +1486,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &58085252
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 150612446}
+  m_GameObject: {fileID: 58085247}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &58085253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 150612446}
+  m_GameObject: {fileID: 58085247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 58085252}
+  collisionSoundLength: 1
 --- !u!1 &62962658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +2014,8 @@ GameObject:
   - 95: {fileID: 90666241}
   - 54: {fileID: 90666240}
   - 65: {fileID: 90666239}
+  - 114: {fileID: 90666243}
+  - 82: {fileID: 90666242}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -1778,6 +2080,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &90666242
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 850489290}
+  m_GameObject: {fileID: 90666237}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &90666243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 850489290}
+  m_GameObject: {fileID: 90666237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 90666242}
+  collisionSoundLength: 1
 --- !u!1001 &95974655
 Prefab:
   m_ObjectHideFlags: 0
@@ -1933,6 +2308,8 @@ GameObject:
   - 95: {fileID: 103829057}
   - 65: {fileID: 103829056}
   - 54: {fileID: 103829055}
+  - 114: {fileID: 103829059}
+  - 82: {fileID: 103829058}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -1997,6 +2374,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &103829058
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1498085749}
+  m_GameObject: {fileID: 103829053}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &103829059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1498085749}
+  m_GameObject: {fileID: 103829053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 103829058}
+  collisionSoundLength: 1
 --- !u!1001 &104255402
 Prefab:
   m_ObjectHideFlags: 0
@@ -2254,6 +2704,8 @@ GameObject:
   - 95: {fileID: 113763272}
   - 65: {fileID: 113763271}
   - 54: {fileID: 113763270}
+  - 114: {fileID: 113763274}
+  - 82: {fileID: 113763273}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -2318,6 +2770,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &113763273
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1438748241}
+  m_GameObject: {fileID: 113763268}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &113763274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1438748241}
+  m_GameObject: {fileID: 113763268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 113763273}
+  collisionSoundLength: 1
 --- !u!1 &114762577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,6 +3373,8 @@ GameObject:
   - 95: {fileID: 148800152}
   - 54: {fileID: 148800151}
   - 65: {fileID: 148800150}
+  - 114: {fileID: 148800154}
+  - 82: {fileID: 148800153}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -2912,6 +3439,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &148800153
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 137386066}
+  m_GameObject: {fileID: 148800148}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &148800154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 137386066}
+  m_GameObject: {fileID: 148800148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 148800153}
+  collisionSoundLength: 1
 --- !u!1001 &150612446
 Prefab:
   m_ObjectHideFlags: 0
@@ -2975,6 +3575,8 @@ GameObject:
   - 95: {fileID: 151825979}
   - 54: {fileID: 151825978}
   - 65: {fileID: 151825977}
+  - 114: {fileID: 151825981}
+  - 82: {fileID: 151825980}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -3039,6 +3641,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &151825980
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 490316364}
+  m_GameObject: {fileID: 151825975}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &151825981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 490316364}
+  m_GameObject: {fileID: 151825975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 151825980}
+  collisionSoundLength: 1
 --- !u!1 &158105797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3755,8 @@ GameObject:
   - 95: {fileID: 159705019}
   - 54: {fileID: 159705018}
   - 65: {fileID: 159705017}
+  - 114: {fileID: 159705021}
+  - 82: {fileID: 159705020}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -3144,6 +3821,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &159705020
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1045845528}
+  m_GameObject: {fileID: 159705015}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &159705021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1045845528}
+  m_GameObject: {fileID: 159705015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 159705020}
+  collisionSoundLength: 1
 --- !u!1001 &159810200
 Prefab:
   m_ObjectHideFlags: 0
@@ -4919,6 +5669,8 @@ GameObject:
   - 95: {fileID: 250369631}
   - 65: {fileID: 250369630}
   - 54: {fileID: 250369629}
+  - 114: {fileID: 250369633}
+  - 82: {fileID: 250369632}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -4983,6 +5735,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &250369632
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1797675742}
+  m_GameObject: {fileID: 250369627}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &250369633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1797675742}
+  m_GameObject: {fileID: 250369627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 250369632}
+  collisionSoundLength: 1
 --- !u!1001 &253299901
 Prefab:
   m_ObjectHideFlags: 0
@@ -5216,6 +6041,8 @@ GameObject:
   - 95: {fileID: 274984753}
   - 54: {fileID: 274984752}
   - 65: {fileID: 274984751}
+  - 114: {fileID: 274984755}
+  - 82: {fileID: 274984754}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -5280,6 +6107,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &274984754
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 25455949}
+  m_GameObject: {fileID: 274984749}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &274984755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 25455949}
+  m_GameObject: {fileID: 274984749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 274984754}
+  collisionSoundLength: 1
 --- !u!1 &277715893
 GameObject:
   m_ObjectHideFlags: 0
@@ -5394,6 +6294,8 @@ GameObject:
   - 95: {fileID: 287596859}
   - 54: {fileID: 287596858}
   - 65: {fileID: 287596857}
+  - 114: {fileID: 287596861}
+  - 82: {fileID: 287596860}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -5458,6 +6360,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &287596860
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1229419728}
+  m_GameObject: {fileID: 287596855}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &287596861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1229419728}
+  m_GameObject: {fileID: 287596855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 287596860}
+  collisionSoundLength: 1
 --- !u!1 &294894180
 GameObject:
   m_ObjectHideFlags: 0
@@ -5469,6 +6444,8 @@ GameObject:
   - 95: {fileID: 294894184}
   - 54: {fileID: 294894183}
   - 65: {fileID: 294894182}
+  - 114: {fileID: 294894186}
+  - 82: {fileID: 294894185}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -5533,6 +6510,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &294894185
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 371147860}
+  m_GameObject: {fileID: 294894180}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &294894186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 371147860}
+  m_GameObject: {fileID: 294894180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 294894185}
+  collisionSoundLength: 1
 --- !u!1001 &295109905
 Prefab:
   m_ObjectHideFlags: 0
@@ -5944,6 +6994,8 @@ GameObject:
   - 95: {fileID: 307495429}
   - 54: {fileID: 307495428}
   - 65: {fileID: 307495427}
+  - 114: {fileID: 307495431}
+  - 82: {fileID: 307495430}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -6008,6 +7060,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &307495430
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851309155}
+  m_GameObject: {fileID: 307495425}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &307495431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1851309155}
+  m_GameObject: {fileID: 307495425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 307495430}
+  collisionSoundLength: 1
 --- !u!1001 &311121070
 Prefab:
   m_ObjectHideFlags: 0
@@ -6396,6 +7521,8 @@ GameObject:
   - 95: {fileID: 350197732}
   - 54: {fileID: 350197731}
   - 65: {fileID: 350197730}
+  - 114: {fileID: 350197734}
+  - 82: {fileID: 350197733}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -6460,6 +7587,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &350197733
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 26556219}
+  m_GameObject: {fileID: 350197728}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &350197734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 26556219}
+  m_GameObject: {fileID: 350197728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 350197733}
+  collisionSoundLength: 1
 --- !u!1 &350450330
 GameObject:
   m_ObjectHideFlags: 0
@@ -7644,6 +8844,8 @@ GameObject:
   - 95: {fileID: 428674887}
   - 54: {fileID: 428674886}
   - 65: {fileID: 428674885}
+  - 114: {fileID: 428674889}
+  - 82: {fileID: 428674888}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -7708,6 +8910,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &428674888
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 713378760}
+  m_GameObject: {fileID: 428674883}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &428674889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 713378760}
+  m_GameObject: {fileID: 428674883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 428674888}
+  collisionSoundLength: 1
 --- !u!1001 &431240305
 Prefab:
   m_ObjectHideFlags: 0
@@ -7870,6 +9145,8 @@ GameObject:
   - 95: {fileID: 441767576}
   - 65: {fileID: 441767575}
   - 54: {fileID: 441767574}
+  - 114: {fileID: 441767578}
+  - 82: {fileID: 441767577}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -7934,6 +9211,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &441767577
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1788263954}
+  m_GameObject: {fileID: 441767572}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &441767578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1788263954}
+  m_GameObject: {fileID: 441767572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 441767577}
+  collisionSoundLength: 1
 --- !u!1 &451190859
 GameObject:
   m_ObjectHideFlags: 0
@@ -8260,6 +9610,8 @@ GameObject:
   - 95: {fileID: 467406510}
   - 54: {fileID: 467406509}
   - 65: {fileID: 467406508}
+  - 114: {fileID: 467406512}
+  - 82: {fileID: 467406511}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -8324,6 +9676,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &467406511
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 328453974}
+  m_GameObject: {fileID: 467406506}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &467406512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 328453974}
+  m_GameObject: {fileID: 467406506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 467406511}
+  collisionSoundLength: 1
 --- !u!1001 &469867473
 Prefab:
   m_ObjectHideFlags: 0
@@ -8434,6 +9859,8 @@ GameObject:
   - 95: {fileID: 471392188}
   - 54: {fileID: 471392187}
   - 65: {fileID: 471392186}
+  - 114: {fileID: 471392190}
+  - 82: {fileID: 471392189}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -8498,6 +9925,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &471392189
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1690131888}
+  m_GameObject: {fileID: 471392184}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &471392190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1690131888}
+  m_GameObject: {fileID: 471392184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 471392189}
+  collisionSoundLength: 1
 --- !u!1 &479381856
 GameObject:
   m_ObjectHideFlags: 0
@@ -8509,6 +10009,8 @@ GameObject:
   - 95: {fileID: 479381860}
   - 54: {fileID: 479381859}
   - 65: {fileID: 479381858}
+  - 114: {fileID: 479381862}
+  - 82: {fileID: 479381861}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -8573,6 +10075,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &479381861
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1076970545}
+  m_GameObject: {fileID: 479381856}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &479381862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1076970545}
+  m_GameObject: {fileID: 479381856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 479381861}
+  collisionSoundLength: 1
 --- !u!1001 &490316364
 Prefab:
   m_ObjectHideFlags: 0
@@ -8905,6 +10480,8 @@ GameObject:
   - 95: {fileID: 502033885}
   - 54: {fileID: 502033884}
   - 65: {fileID: 502033883}
+  - 114: {fileID: 502033887}
+  - 82: {fileID: 502033886}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -8969,6 +10546,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &502033886
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 11111745}
+  m_GameObject: {fileID: 502033881}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &502033887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 11111745}
+  m_GameObject: {fileID: 502033881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 502033886}
+  collisionSoundLength: 1
 --- !u!1001 &502602059
 Prefab:
   m_ObjectHideFlags: 0
@@ -9348,6 +10998,8 @@ GameObject:
   - 95: {fileID: 518374882}
   - 54: {fileID: 518374881}
   - 65: {fileID: 518374880}
+  - 114: {fileID: 518374884}
+  - 82: {fileID: 518374883}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -9412,6 +11064,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &518374883
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 95974655}
+  m_GameObject: {fileID: 518374878}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &518374884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 95974655}
+  m_GameObject: {fileID: 518374878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 518374883}
+  collisionSoundLength: 1
 --- !u!1 &525912149
 GameObject:
   m_ObjectHideFlags: 0
@@ -9937,6 +11662,8 @@ GameObject:
   - 95: {fileID: 572674168}
   - 54: {fileID: 572674167}
   - 65: {fileID: 572674166}
+  - 114: {fileID: 572674170}
+  - 82: {fileID: 572674169}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -10001,6 +11728,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &572674169
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1397590712}
+  m_GameObject: {fileID: 572674164}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &572674170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1397590712}
+  m_GameObject: {fileID: 572674164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 572674169}
+  collisionSoundLength: 1
 --- !u!1 &579588983
 GameObject:
   m_ObjectHideFlags: 0
@@ -10231,6 +12031,8 @@ GameObject:
   - 95: {fileID: 591350189}
   - 65: {fileID: 591350188}
   - 54: {fileID: 591350187}
+  - 114: {fileID: 591350191}
+  - 82: {fileID: 591350190}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -10295,6 +12097,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &591350190
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 967988479}
+  m_GameObject: {fileID: 591350185}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &591350191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 967988479}
+  m_GameObject: {fileID: 591350185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 591350190}
+  collisionSoundLength: 1
 --- !u!1001 &593932177
 Prefab:
   m_ObjectHideFlags: 0
@@ -10546,6 +12421,8 @@ GameObject:
   - 95: {fileID: 597921111}
   - 54: {fileID: 597921110}
   - 65: {fileID: 597921109}
+  - 114: {fileID: 597921113}
+  - 82: {fileID: 597921112}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -10610,6 +12487,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &597921112
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 711338115}
+  m_GameObject: {fileID: 597921107}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &597921113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 711338115}
+  m_GameObject: {fileID: 597921107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 597921112}
+  collisionSoundLength: 1
 --- !u!1 &606197560
 GameObject:
   m_ObjectHideFlags: 0
@@ -10838,6 +12788,8 @@ GameObject:
   - 95: {fileID: 610678342}
   - 65: {fileID: 610678341}
   - 54: {fileID: 610678340}
+  - 114: {fileID: 610678344}
+  - 82: {fileID: 610678343}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -10902,6 +12854,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &610678343
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 161703532}
+  m_GameObject: {fileID: 610678338}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &610678344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 161703532}
+  m_GameObject: {fileID: 610678338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 610678343}
+  collisionSoundLength: 1
 --- !u!1001 &614197149
 Prefab:
   m_ObjectHideFlags: 0
@@ -10993,6 +13018,8 @@ GameObject:
   - 95: {fileID: 621194103}
   - 65: {fileID: 621194102}
   - 54: {fileID: 621194101}
+  - 114: {fileID: 621194105}
+  - 82: {fileID: 621194104}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -11057,6 +13084,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &621194104
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 463995615}
+  m_GameObject: {fileID: 621194099}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &621194105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 463995615}
+  m_GameObject: {fileID: 621194099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 621194104}
+  collisionSoundLength: 1
 --- !u!1 &624237146
 GameObject:
   m_ObjectHideFlags: 0
@@ -11425,6 +13525,8 @@ GameObject:
   - 95: {fileID: 637060672}
   - 54: {fileID: 637060671}
   - 65: {fileID: 637060670}
+  - 114: {fileID: 637060674}
+  - 82: {fileID: 637060673}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -11489,6 +13591,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &637060673
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1128700744}
+  m_GameObject: {fileID: 637060668}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &637060674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1128700744}
+  m_GameObject: {fileID: 637060668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 637060673}
+  collisionSoundLength: 1
 --- !u!1 &638101857
 GameObject:
   m_ObjectHideFlags: 0
@@ -12348,6 +14523,8 @@ GameObject:
   - 95: {fileID: 702185574}
   - 54: {fileID: 702185573}
   - 65: {fileID: 702185572}
+  - 114: {fileID: 702185576}
+  - 82: {fileID: 702185575}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -12412,6 +14589,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &702185575
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1782276132}
+  m_GameObject: {fileID: 702185570}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &702185576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1782276132}
+  m_GameObject: {fileID: 702185570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 702185575}
+  collisionSoundLength: 1
 --- !u!1001 &706840086
 Prefab:
   m_ObjectHideFlags: 0
@@ -12913,6 +15163,8 @@ GameObject:
   - 95: {fileID: 724427653}
   - 54: {fileID: 724427652}
   - 65: {fileID: 724427651}
+  - 114: {fileID: 724427655}
+  - 82: {fileID: 724427654}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -12977,6 +15229,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &724427654
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 961573537}
+  m_GameObject: {fileID: 724427649}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &724427655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 961573537}
+  m_GameObject: {fileID: 724427649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 724427654}
+  collisionSoundLength: 1
 --- !u!1 &733191767
 GameObject:
   m_ObjectHideFlags: 0
@@ -12988,6 +15313,8 @@ GameObject:
   - 95: {fileID: 733191771}
   - 65: {fileID: 733191770}
   - 54: {fileID: 733191769}
+  - 114: {fileID: 733191773}
+  - 82: {fileID: 733191772}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -13052,6 +15379,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &733191772
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 802810535}
+  m_GameObject: {fileID: 733191767}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &733191773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 802810535}
+  m_GameObject: {fileID: 733191767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 733191772}
+  collisionSoundLength: 1
 --- !u!1 &733237192
 GameObject:
   m_ObjectHideFlags: 0
@@ -13624,6 +16024,8 @@ GameObject:
   - 95: {fileID: 762757235}
   - 54: {fileID: 762757234}
   - 65: {fileID: 762757233}
+  - 114: {fileID: 762757237}
+  - 82: {fileID: 762757236}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -13688,6 +16090,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &762757236
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 849500435}
+  m_GameObject: {fileID: 762757231}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &762757237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 849500435}
+  m_GameObject: {fileID: 762757231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 762757236}
+  collisionSoundLength: 1
 --- !u!1 &769289619
 GameObject:
   m_ObjectHideFlags: 0
@@ -14023,6 +16498,8 @@ GameObject:
   - 95: {fileID: 795385888}
   - 65: {fileID: 795385887}
   - 54: {fileID: 795385886}
+  - 114: {fileID: 795385890}
+  - 82: {fileID: 795385889}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -14087,6 +16564,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &795385889
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 432576277}
+  m_GameObject: {fileID: 795385884}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &795385890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 432576277}
+  m_GameObject: {fileID: 795385884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 795385889}
+  collisionSoundLength: 1
 --- !u!1 &795839442
 GameObject:
   m_ObjectHideFlags: 0
@@ -14366,6 +16916,8 @@ GameObject:
   - 95: {fileID: 809134273}
   - 54: {fileID: 809134272}
   - 65: {fileID: 809134271}
+  - 114: {fileID: 809134275}
+  - 82: {fileID: 809134274}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -14430,6 +16982,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &809134274
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 116860793}
+  m_GameObject: {fileID: 809134269}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &809134275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 116860793}
+  m_GameObject: {fileID: 809134269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 809134274}
+  collisionSoundLength: 1
 --- !u!1 &810715058
 GameObject:
   m_ObjectHideFlags: 0
@@ -14613,6 +17238,8 @@ GameObject:
   - 95: {fileID: 824987484}
   - 65: {fileID: 824987483}
   - 54: {fileID: 824987482}
+  - 114: {fileID: 824987486}
+  - 82: {fileID: 824987485}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -14677,6 +17304,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &824987485
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1649870828}
+  m_GameObject: {fileID: 824987480}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &824987486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1649870828}
+  m_GameObject: {fileID: 824987480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 824987485}
+  collisionSoundLength: 1
 --- !u!1 &838377357
 GameObject:
   m_ObjectHideFlags: 0
@@ -14746,6 +17446,8 @@ GameObject:
   - 95: {fileID: 841719159}
   - 54: {fileID: 841719158}
   - 65: {fileID: 841719157}
+  - 114: {fileID: 841719161}
+  - 82: {fileID: 841719160}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -14810,6 +17512,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &841719160
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 2013551053}
+  m_GameObject: {fileID: 841719155}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &841719161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 2013551053}
+  m_GameObject: {fileID: 841719155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 841719160}
+  collisionSoundLength: 1
 --- !u!1001 &843905472
 Prefab:
   m_ObjectHideFlags: 0
@@ -14925,6 +17700,8 @@ GameObject:
   - 95: {fileID: 847444463}
   - 65: {fileID: 847444462}
   - 54: {fileID: 847444461}
+  - 114: {fileID: 847444465}
+  - 82: {fileID: 847444464}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -14989,6 +17766,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &847444464
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1112628807}
+  m_GameObject: {fileID: 847444459}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &847444465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1112628807}
+  m_GameObject: {fileID: 847444459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 847444464}
+  collisionSoundLength: 1
 --- !u!1001 &849500435
 Prefab:
   m_ObjectHideFlags: 0
@@ -15327,6 +18177,8 @@ GameObject:
   - 95: {fileID: 880220094}
   - 54: {fileID: 880220093}
   - 65: {fileID: 880220092}
+  - 114: {fileID: 880220096}
+  - 82: {fileID: 880220095}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -15391,6 +18243,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &880220095
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 772238964}
+  m_GameObject: {fileID: 880220090}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &880220096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 772238964}
+  m_GameObject: {fileID: 880220090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 880220095}
+  collisionSoundLength: 1
 --- !u!1 &881142715
 GameObject:
   m_ObjectHideFlags: 0
@@ -15562,6 +18487,8 @@ GameObject:
   - 95: {fileID: 902631271}
   - 54: {fileID: 902631270}
   - 65: {fileID: 902631269}
+  - 114: {fileID: 902631273}
+  - 82: {fileID: 902631272}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -15626,6 +18553,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &902631272
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1854099123}
+  m_GameObject: {fileID: 902631267}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &902631273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1854099123}
+  m_GameObject: {fileID: 902631267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 902631272}
+  collisionSoundLength: 1
 --- !u!1 &903182333
 GameObject:
   m_ObjectHideFlags: 0
@@ -16017,6 +19017,8 @@ GameObject:
   - 95: {fileID: 934148335}
   - 54: {fileID: 934148334}
   - 65: {fileID: 934148333}
+  - 114: {fileID: 934148337}
+  - 82: {fileID: 934148336}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -16081,6 +19083,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &934148336
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 97989391}
+  m_GameObject: {fileID: 934148331}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &934148337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 97989391}
+  m_GameObject: {fileID: 934148331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 934148336}
+  collisionSoundLength: 1
 --- !u!1 &935140929
 GameObject:
   m_ObjectHideFlags: 0
@@ -16616,48 +19691,48 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 274984750}
-  - {fileID: 1311899409}
-  - {fileID: 467406507}
-  - {fileID: 294894181}
-  - {fileID: 1421708675}
   - {fileID: 428674884}
-  - {fileID: 1652520879}
-  - {fileID: 1531732769}
-  - {fileID: 1921614415}
+  - {fileID: 467406507}
   - {fileID: 1656157846}
   - {fileID: 46769550}
-  - {fileID: 2126658679}
   - {fileID: 307495426}
+  - {fileID: 1921614415}
+  - {fileID: 294894181}
+  - {fileID: 2126658679}
+  - {fileID: 1531732769}
+  - {fileID: 1652520879}
+  - {fileID: 274984750}
+  - {fileID: 1421708675}
   - {fileID: 1948778374}
-  - {fileID: 350197729}
-  - {fileID: 1714221253}
-  - {fileID: 518374879}
-  - {fileID: 934148332}
-  - {fileID: 809134270}
-  - {fileID: 148800149}
-  - {fileID: 1357875906}
-  - {fileID: 998892266}
-  - {fileID: 1537930404}
-  - {fileID: 151825976}
-  - {fileID: 1503566533}
-  - {fileID: 2118276030}
-  - {fileID: 597921108}
-  - {fileID: 2145598090}
-  - {fileID: 880220091}
-  - {fileID: 90666238}
-  - {fileID: 2087202028}
-  - {fileID: 724427650}
-  - {fileID: 159705016}
+  - {fileID: 1311899409}
   - {fileID: 1265089628}
+  - {fileID: 1519925642}
+  - {fileID: 159705016}
+  - {fileID: 1615720702}
+  - {fileID: 2087202028}
+  - {fileID: 2145598090}
+  - {fileID: 597921108}
+  - {fileID: 724427650}
   - {fileID: 572674165}
+  - {fileID: 998892266}
+  - {fileID: 2118276030}
+  - {fileID: 1151298065}
+  - {fileID: 880220091}
+  - {fileID: 902631268}
+  - {fileID: 518374879}
+  - {fileID: 151825976}
+  - {fileID: 148800149}
   - {fileID: 1023714002}
   - {fileID: 702185571}
-  - {fileID: 902631268}
-  - {fileID: 1615720702}
-  - {fileID: 1519925642}
+  - {fileID: 1714221253}
+  - {fileID: 1357875906}
+  - {fileID: 90666238}
+  - {fileID: 809134270}
+  - {fileID: 1503566533}
+  - {fileID: 934148332}
+  - {fileID: 1537930404}
   - {fileID: 1727868456}
-  - {fileID: 1151298065}
+  - {fileID: 350197729}
   m_Father: {fileID: 158105798}
 --- !u!1 &972498451
 GameObject:
@@ -16670,6 +19745,8 @@ GameObject:
   - 95: {fileID: 972498455}
   - 65: {fileID: 972498454}
   - 54: {fileID: 972498453}
+  - 114: {fileID: 972498457}
+  - 82: {fileID: 972498456}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -16734,6 +19811,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &972498456
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 497701320}
+  m_GameObject: {fileID: 972498451}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &972498457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 497701320}
+  m_GameObject: {fileID: 972498451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 972498456}
+  collisionSoundLength: 1
 --- !u!1 &972699320
 GameObject:
   m_ObjectHideFlags: 0
@@ -17197,6 +20347,8 @@ GameObject:
   - 95: {fileID: 998892269}
   - 54: {fileID: 998892268}
   - 65: {fileID: 998892267}
+  - 114: {fileID: 998892271}
+  - 82: {fileID: 998892270}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -17261,6 +20413,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &998892270
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 253299901}
+  m_GameObject: {fileID: 998892265}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &998892271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 253299901}
+  m_GameObject: {fileID: 998892265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 998892270}
+  collisionSoundLength: 1
 --- !u!1 &1006297373
 GameObject:
   m_ObjectHideFlags: 0
@@ -17533,6 +20758,8 @@ GameObject:
   - 95: {fileID: 1023714005}
   - 54: {fileID: 1023714004}
   - 65: {fileID: 1023714003}
+  - 114: {fileID: 1023714007}
+  - 82: {fileID: 1023714006}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -17597,6 +20824,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1023714006
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1546120275}
+  m_GameObject: {fileID: 1023714001}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1023714007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1546120275}
+  m_GameObject: {fileID: 1023714001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1023714006}
+  collisionSoundLength: 1
 --- !u!1 &1030068259
 GameObject:
   m_ObjectHideFlags: 0
@@ -17961,6 +21261,8 @@ GameObject:
   - 95: {fileID: 1074442973}
   - 65: {fileID: 1074442972}
   - 54: {fileID: 1074442971}
+  - 114: {fileID: 1074442975}
+  - 82: {fileID: 1074442974}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -18025,6 +21327,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1074442974
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1906217695}
+  m_GameObject: {fileID: 1074442969}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1074442975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1906217695}
+  m_GameObject: {fileID: 1074442969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1074442974}
+  collisionSoundLength: 1
 --- !u!1001 &1076970545
 Prefab:
   m_ObjectHideFlags: 0
@@ -19491,6 +22866,8 @@ GameObject:
   - 95: {fileID: 1151298068}
   - 54: {fileID: 1151298067}
   - 65: {fileID: 1151298066}
+  - 114: {fileID: 1151298070}
+  - 82: {fileID: 1151298069}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -19555,6 +22932,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1151298069
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2121000245}
+  m_GameObject: {fileID: 1151298064}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1151298070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2121000245}
+  m_GameObject: {fileID: 1151298064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1151298069}
+  collisionSoundLength: 1
 --- !u!1 &1159558741
 GameObject:
   m_ObjectHideFlags: 0
@@ -19742,6 +23192,8 @@ GameObject:
   - 95: {fileID: 1162720633}
   - 54: {fileID: 1162720632}
   - 65: {fileID: 1162720631}
+  - 114: {fileID: 1162720635}
+  - 82: {fileID: 1162720634}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -19806,6 +23258,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1162720634
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1337499823}
+  m_GameObject: {fileID: 1162720629}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1162720635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1337499823}
+  m_GameObject: {fileID: 1162720629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1162720634}
+  collisionSoundLength: 1
 --- !u!1 &1165463031
 GameObject:
   m_ObjectHideFlags: 0
@@ -21530,6 +25055,8 @@ GameObject:
   - 95: {fileID: 1265089631}
   - 54: {fileID: 1265089630}
   - 65: {fileID: 1265089629}
+  - 114: {fileID: 1265089633}
+  - 82: {fileID: 1265089632}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -21594,6 +25121,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1265089632
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1186158457}
+  m_GameObject: {fileID: 1265089627}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1265089633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1186158457}
+  m_GameObject: {fileID: 1265089627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1265089632}
+  collisionSoundLength: 1
 --- !u!1 &1269374254
 GameObject:
   m_ObjectHideFlags: 0
@@ -21605,6 +25205,8 @@ GameObject:
   - 95: {fileID: 1269374258}
   - 65: {fileID: 1269374257}
   - 54: {fileID: 1269374256}
+  - 114: {fileID: 1269374260}
+  - 82: {fileID: 1269374259}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -21669,6 +25271,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1269374259
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 843905472}
+  m_GameObject: {fileID: 1269374254}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1269374260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 843905472}
+  m_GameObject: {fileID: 1269374254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1269374259}
+  collisionSoundLength: 1
 --- !u!1001 &1284791008
 Prefab:
   m_ObjectHideFlags: 0
@@ -21838,6 +25513,8 @@ GameObject:
   - 95: {fileID: 1311899412}
   - 54: {fileID: 1311899411}
   - 65: {fileID: 1311899410}
+  - 114: {fileID: 1311899414}
+  - 82: {fileID: 1311899413}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -21902,6 +25579,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1311899413
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 207682388}
+  m_GameObject: {fileID: 1311899408}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1311899414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 207682388}
+  m_GameObject: {fileID: 1311899408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1311899413}
+  collisionSoundLength: 1
 --- !u!1 &1318092211
 GameObject:
   m_ObjectHideFlags: 0
@@ -22717,6 +26467,8 @@ GameObject:
   - 95: {fileID: 1356365885}
   - 65: {fileID: 1356365884}
   - 54: {fileID: 1356365883}
+  - 114: {fileID: 1356365887}
+  - 82: {fileID: 1356365886}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -22781,6 +26533,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1356365886
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 634021608}
+  m_GameObject: {fileID: 1356365881}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1356365887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 634021608}
+  m_GameObject: {fileID: 1356365881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1356365886}
+  collisionSoundLength: 1
 --- !u!1 &1357875905
 GameObject:
   m_ObjectHideFlags: 0
@@ -22792,6 +26617,8 @@ GameObject:
   - 95: {fileID: 1357875909}
   - 54: {fileID: 1357875908}
   - 65: {fileID: 1357875907}
+  - 114: {fileID: 1357875911}
+  - 82: {fileID: 1357875910}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -22856,6 +26683,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1357875910
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 220553796}
+  m_GameObject: {fileID: 1357875905}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1357875911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 220553796}
+  m_GameObject: {fileID: 1357875905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1357875910}
+  collisionSoundLength: 1
 --- !u!1 &1360518938
 GameObject:
   m_ObjectHideFlags: 0
@@ -23775,6 +27675,8 @@ GameObject:
   - 95: {fileID: 1421708678}
   - 54: {fileID: 1421708677}
   - 65: {fileID: 1421708676}
+  - 114: {fileID: 1421708680}
+  - 82: {fileID: 1421708679}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -23839,6 +27741,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1421708679
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 424167940}
+  m_GameObject: {fileID: 1421708674}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1421708680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 424167940}
+  m_GameObject: {fileID: 1421708674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1421708679}
+  collisionSoundLength: 1
 --- !u!1001 &1432657053
 Prefab:
   m_ObjectHideFlags: 0
@@ -23974,6 +27949,8 @@ GameObject:
   - 95: {fileID: 1450691788}
   - 65: {fileID: 1450691787}
   - 54: {fileID: 1450691786}
+  - 114: {fileID: 1450691790}
+  - 82: {fileID: 1450691789}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -24038,6 +28015,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1450691789
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 502602059}
+  m_GameObject: {fileID: 1450691784}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1450691790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 502602059}
+  m_GameObject: {fileID: 1450691784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1450691789}
+  collisionSoundLength: 1
 --- !u!1 &1459017627
 GameObject:
   m_ObjectHideFlags: 0
@@ -24129,6 +28179,8 @@ GameObject:
   - 95: {fileID: 1481842864}
   - 65: {fileID: 1481842863}
   - 54: {fileID: 1481842862}
+  - 114: {fileID: 1481842866}
+  - 82: {fileID: 1481842865}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -24193,6 +28245,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1481842865
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 73907574}
+  m_GameObject: {fileID: 1481842860}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1481842866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 73907574}
+  m_GameObject: {fileID: 1481842860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1481842865}
+  collisionSoundLength: 1
 --- !u!1 &1485354949
 GameObject:
   m_ObjectHideFlags: 0
@@ -24423,6 +28548,8 @@ GameObject:
   - 95: {fileID: 1503566536}
   - 54: {fileID: 1503566535}
   - 65: {fileID: 1503566534}
+  - 114: {fileID: 1503566538}
+  - 82: {fileID: 1503566537}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -24487,6 +28614,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1503566537
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 546418739}
+  m_GameObject: {fileID: 1503566532}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1503566538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 546418739}
+  m_GameObject: {fileID: 1503566532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1503566537}
+  collisionSoundLength: 1
 --- !u!1001 &1505966848
 Prefab:
   m_ObjectHideFlags: 0
@@ -24611,47 +28811,47 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 502033882}
   - {fileID: 1771429376}
-  - {fileID: 1785585069}
-  - {fileID: 1578720228}
-  - {fileID: 762757232}
-  - {fileID: 479381857}
-  - {fileID: 637060669}
-  - {fileID: 287596856}
-  - {fileID: 1162720630}
   - {fileID: 471392185}
-  - {fileID: 1695576219}
-  - {fileID: 2144788700}
   - {fileID: 1988370396}
+  - {fileID: 502033882}
+  - {fileID: 479381857}
+  - {fileID: 1785585069}
+  - {fileID: 2144788700}
+  - {fileID: 1578720228}
+  - {fileID: 637060669}
   - {fileID: 841719156}
-  - {fileID: 1481842861}
-  - {fileID: 58085248}
-  - {fileID: 610678339}
-  - {fileID: 795385885}
-  - {fileID: 621194100}
-  - {fileID: 972498452}
-  - {fileID: 1450691785}
-  - {fileID: 1918829078}
-  - {fileID: 1356365882}
-  - {fileID: 10246270}
-  - {fileID: 1612626091}
-  - {fileID: 733191768}
-  - {fileID: 1269374255}
-  - {fileID: 591350186}
-  - {fileID: 1751976639}
-  - {fileID: 847444460}
+  - {fileID: 762757232}
+  - {fileID: 1162720630}
+  - {fileID: 287596856}
+  - {fileID: 1695576219}
   - {fileID: 113763269}
+  - {fileID: 1918829078}
+  - {fileID: 2023783978}
   - {fileID: 103829054}
+  - {fileID: 621194100}
+  - {fileID: 10246270}
+  - {fileID: 1074442970}
+  - {fileID: 1551486862}
+  - {fileID: 733191768}
+  - {fileID: 1612626091}
+  - {fileID: 1269374255}
+  - {fileID: 1481842861}
+  - {fileID: 2056565909}
+  - {fileID: 1356365882}
+  - {fileID: 972498452}
+  - {fileID: 610678339}
+  - {fileID: 847444460}
   - {fileID: 824987481}
   - {fileID: 441767573}
-  - {fileID: 250369628}
-  - {fileID: 1551486862}
-  - {fileID: 1074442970}
-  - {fileID: 2056565909}
-  - {fileID: 1631343453}
-  - {fileID: 2023783978}
+  - {fileID: 591350186}
+  - {fileID: 1751976639}
+  - {fileID: 795385885}
   - {fileID: 46233854}
+  - {fileID: 250369628}
+  - {fileID: 1631343453}
+  - {fileID: 58085248}
+  - {fileID: 1450691785}
   m_Father: {fileID: 1596562914}
 --- !u!1 &1518824759
 GameObject:
@@ -24850,6 +29050,8 @@ GameObject:
   - 95: {fileID: 1519925645}
   - 54: {fileID: 1519925644}
   - 65: {fileID: 1519925643}
+  - 114: {fileID: 1519925647}
+  - 82: {fileID: 1519925646}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -24914,6 +29116,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1519925646
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2022693498}
+  m_GameObject: {fileID: 1519925641}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1519925647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2022693498}
+  m_GameObject: {fileID: 1519925641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1519925646}
+  collisionSoundLength: 1
 --- !u!1 &1531732768
 GameObject:
   m_ObjectHideFlags: 0
@@ -24925,6 +29200,8 @@ GameObject:
   - 95: {fileID: 1531732772}
   - 54: {fileID: 1531732771}
   - 65: {fileID: 1531732770}
+  - 114: {fileID: 1531732774}
+  - 82: {fileID: 1531732773}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -24989,6 +29266,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1531732773
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 844645256}
+  m_GameObject: {fileID: 1531732768}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1531732774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 844645256}
+  m_GameObject: {fileID: 1531732768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1531732773}
+  collisionSoundLength: 1
 --- !u!1 &1537200789
 GameObject:
   m_ObjectHideFlags: 0
@@ -25040,6 +29390,8 @@ GameObject:
   - 95: {fileID: 1537930407}
   - 54: {fileID: 1537930406}
   - 65: {fileID: 1537930405}
+  - 114: {fileID: 1537930409}
+  - 82: {fileID: 1537930408}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -25104,6 +29456,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1537930408
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 346037402}
+  m_GameObject: {fileID: 1537930403}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1537930409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 346037402}
+  m_GameObject: {fileID: 1537930403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1537930408}
+  collisionSoundLength: 1
 --- !u!1 &1540510837
 GameObject:
   m_ObjectHideFlags: 0
@@ -25343,6 +29768,8 @@ GameObject:
   - 95: {fileID: 1551486865}
   - 65: {fileID: 1551486864}
   - 54: {fileID: 1551486863}
+  - 114: {fileID: 1551486867}
+  - 82: {fileID: 1551486866}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -25407,6 +29834,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1551486866
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1805748659}
+  m_GameObject: {fileID: 1551486861}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1551486867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1805748659}
+  m_GameObject: {fileID: 1551486861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1551486866}
+  collisionSoundLength: 1
 --- !u!1 &1551819948
 GameObject:
   m_ObjectHideFlags: 0
@@ -25993,6 +30493,8 @@ GameObject:
   - 95: {fileID: 1578720231}
   - 54: {fileID: 1578720230}
   - 65: {fileID: 1578720229}
+  - 114: {fileID: 1578720233}
+  - 82: {fileID: 1578720232}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -26057,6 +30559,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1578720232
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 674367459}
+  m_GameObject: {fileID: 1578720227}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1578720233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 674367459}
+  m_GameObject: {fileID: 1578720227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1578720232}
+  collisionSoundLength: 1
 --- !u!1 &1581629806
 GameObject:
   m_ObjectHideFlags: 0
@@ -26374,6 +30949,8 @@ GameObject:
   - 95: {fileID: 1612626094}
   - 65: {fileID: 1612626093}
   - 54: {fileID: 1612626092}
+  - 114: {fileID: 1612626096}
+  - 82: {fileID: 1612626095}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -26438,6 +31015,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1612626095
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 794363049}
+  m_GameObject: {fileID: 1612626090}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1612626096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 794363049}
+  m_GameObject: {fileID: 1612626090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1612626095}
+  collisionSoundLength: 1
 --- !u!1 &1615720701
 GameObject:
   m_ObjectHideFlags: 0
@@ -26449,6 +31099,8 @@ GameObject:
   - 95: {fileID: 1615720705}
   - 54: {fileID: 1615720704}
   - 65: {fileID: 1615720703}
+  - 114: {fileID: 1615720707}
+  - 82: {fileID: 1615720706}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -26513,6 +31165,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1615720706
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1905971148}
+  m_GameObject: {fileID: 1615720701}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1615720707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1905971148}
+  m_GameObject: {fileID: 1615720701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1615720706}
+  collisionSoundLength: 1
 --- !u!1 &1625871804
 GameObject:
   m_ObjectHideFlags: 0
@@ -26663,6 +31388,8 @@ GameObject:
   - 95: {fileID: 1631343456}
   - 65: {fileID: 1631343455}
   - 54: {fileID: 1631343454}
+  - 114: {fileID: 1631343458}
+  - 82: {fileID: 1631343457}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -26727,6 +31454,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1631343457
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 2014586154}
+  m_GameObject: {fileID: 1631343452}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1631343458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 2014586154}
+  m_GameObject: {fileID: 1631343452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1631343457}
+  collisionSoundLength: 1
 --- !u!1 &1634120167
 GameObject:
   m_ObjectHideFlags: 0
@@ -27072,6 +31872,8 @@ GameObject:
   - 95: {fileID: 1652520882}
   - 54: {fileID: 1652520881}
   - 65: {fileID: 1652520880}
+  - 114: {fileID: 1652520884}
+  - 82: {fileID: 1652520883}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -27136,6 +31938,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1652520883
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 744552780}
+  m_GameObject: {fileID: 1652520878}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1652520884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 744552780}
+  m_GameObject: {fileID: 1652520878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1652520883}
+  collisionSoundLength: 1
 --- !u!1 &1656157845
 GameObject:
   m_ObjectHideFlags: 0
@@ -27147,6 +32022,8 @@ GameObject:
   - 95: {fileID: 1656157849}
   - 54: {fileID: 1656157848}
   - 65: {fileID: 1656157847}
+  - 114: {fileID: 1656157851}
+  - 82: {fileID: 1656157850}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -27211,6 +32088,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1656157850
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1193652861}
+  m_GameObject: {fileID: 1656157845}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1656157851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1193652861}
+  m_GameObject: {fileID: 1656157845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1656157850}
+  collisionSoundLength: 1
 --- !u!1 &1657862975
 GameObject:
   m_ObjectHideFlags: 0
@@ -28025,6 +32975,8 @@ GameObject:
   - 95: {fileID: 1695576222}
   - 54: {fileID: 1695576221}
   - 65: {fileID: 1695576220}
+  - 114: {fileID: 1695576224}
+  - 82: {fileID: 1695576223}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -28089,6 +33041,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1695576223
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1854551318}
+  m_GameObject: {fileID: 1695576218}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1695576224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1854551318}
+  m_GameObject: {fileID: 1695576218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1695576223}
+  collisionSoundLength: 1
 --- !u!1001 &1696547851
 Prefab:
   m_ObjectHideFlags: 0
@@ -28502,6 +33527,8 @@ GameObject:
   - 95: {fileID: 1714221256}
   - 54: {fileID: 1714221255}
   - 65: {fileID: 1714221254}
+  - 114: {fileID: 1714221258}
+  - 82: {fileID: 1714221257}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -28566,6 +33593,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1714221257
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 44389782}
+  m_GameObject: {fileID: 1714221252}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1714221258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 44389782}
+  m_GameObject: {fileID: 1714221252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1714221257}
+  collisionSoundLength: 1
 --- !u!1 &1727868455
 GameObject:
   m_ObjectHideFlags: 0
@@ -28577,6 +33677,8 @@ GameObject:
   - 95: {fileID: 1727868459}
   - 54: {fileID: 1727868458}
   - 65: {fileID: 1727868457}
+  - 114: {fileID: 1727868461}
+  - 82: {fileID: 1727868460}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -28641,6 +33743,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1727868460
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2070084453}
+  m_GameObject: {fileID: 1727868455}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1727868461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2070084453}
+  m_GameObject: {fileID: 1727868455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1727868460}
+  collisionSoundLength: 1
 --- !u!1 &1732212408
 GameObject:
   m_ObjectHideFlags: 0
@@ -28786,6 +33961,8 @@ GameObject:
   - 95: {fileID: 1751976642}
   - 65: {fileID: 1751976641}
   - 54: {fileID: 1751976640}
+  - 114: {fileID: 1751976644}
+  - 82: {fileID: 1751976643}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -28850,6 +34027,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1751976643
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1112298185}
+  m_GameObject: {fileID: 1751976638}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1751976644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1112298185}
+  m_GameObject: {fileID: 1751976638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1751976643}
+  collisionSoundLength: 1
 --- !u!1 &1753772602
 GameObject:
   m_ObjectHideFlags: 0
@@ -29002,6 +34252,8 @@ GameObject:
   - 95: {fileID: 1771429379}
   - 54: {fileID: 1771429378}
   - 65: {fileID: 1771429377}
+  - 114: {fileID: 1771429381}
+  - 82: {fileID: 1771429380}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -29066,6 +34318,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1771429380
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 311121070}
+  m_GameObject: {fileID: 1771429375}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1771429381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 311121070}
+  m_GameObject: {fileID: 1771429375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1771429380}
+  collisionSoundLength: 1
 --- !u!1 &1773817496
 GameObject:
   m_ObjectHideFlags: 0
@@ -29375,6 +34700,8 @@ GameObject:
   - 95: {fileID: 1785585072}
   - 54: {fileID: 1785585071}
   - 65: {fileID: 1785585070}
+  - 114: {fileID: 1785585074}
+  - 82: {fileID: 1785585073}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -29439,6 +34766,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1785585073
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 370276377}
+  m_GameObject: {fileID: 1785585068}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1785585074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 370276377}
+  m_GameObject: {fileID: 1785585068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1785585073}
+  collisionSoundLength: 1
 --- !u!1001 &1788263954
 Prefab:
   m_ObjectHideFlags: 0
@@ -31115,6 +36515,8 @@ GameObject:
   - 95: {fileID: 1918829081}
   - 65: {fileID: 1918829080}
   - 54: {fileID: 1918829079}
+  - 114: {fileID: 1918829083}
+  - 82: {fileID: 1918829082}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -31179,6 +36581,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1918829082
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 609051235}
+  m_GameObject: {fileID: 1918829077}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1918829083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 609051235}
+  m_GameObject: {fileID: 1918829077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1918829082}
+  collisionSoundLength: 1
 --- !u!1 &1918881142
 GameObject:
   m_ObjectHideFlags: 0
@@ -31288,6 +36763,8 @@ GameObject:
   - 95: {fileID: 1921614418}
   - 54: {fileID: 1921614417}
   - 65: {fileID: 1921614416}
+  - 114: {fileID: 1921614420}
+  - 82: {fileID: 1921614419}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -31352,6 +36829,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1921614419
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1179949746}
+  m_GameObject: {fileID: 1921614414}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1921614420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1179949746}
+  m_GameObject: {fileID: 1921614414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1921614419}
+  collisionSoundLength: 1
 --- !u!1 &1945479604
 GameObject:
   m_ObjectHideFlags: 0
@@ -31403,6 +36953,8 @@ GameObject:
   - 95: {fileID: 1948778377}
   - 54: {fileID: 1948778376}
   - 65: {fileID: 1948778375}
+  - 114: {fileID: 1948778379}
+  - 82: {fileID: 1948778378}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -31467,6 +37019,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1948778378
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 2011517079}
+  m_GameObject: {fileID: 1948778373}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1948778379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 2011517079}
+  m_GameObject: {fileID: 1948778373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1948778378}
+  collisionSoundLength: 1
 --- !u!1 &1950529823
 GameObject:
   m_ObjectHideFlags: 0
@@ -32226,6 +37851,8 @@ GameObject:
   - 95: {fileID: 1988370399}
   - 54: {fileID: 1988370398}
   - 65: {fileID: 1988370397}
+  - 114: {fileID: 1988370401}
+  - 82: {fileID: 1988370400}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -32290,6 +37917,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &1988370400
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 2009254599}
+  m_GameObject: {fileID: 1988370395}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1988370401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 2009254599}
+  m_GameObject: {fileID: 1988370395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1988370400}
+  collisionSoundLength: 1
 --- !u!1 &1993859254
 GameObject:
   m_ObjectHideFlags: 0
@@ -32794,6 +38494,8 @@ GameObject:
   - 95: {fileID: 2023783981}
   - 65: {fileID: 2023783980}
   - 54: {fileID: 2023783979}
+  - 114: {fileID: 2023783983}
+  - 82: {fileID: 2023783982}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -32858,6 +38560,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &2023783982
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 2078593088}
+  m_GameObject: {fileID: 2023783977}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &2023783983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 2078593088}
+  m_GameObject: {fileID: 2023783977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 2023783982}
+  collisionSoundLength: 1
 --- !u!1 &2026441877
 GameObject:
   m_ObjectHideFlags: 0
@@ -33089,6 +38864,8 @@ GameObject:
   - 95: {fileID: 2056565912}
   - 65: {fileID: 2056565911}
   - 54: {fileID: 2056565910}
+  - 114: {fileID: 2056565914}
+  - 82: {fileID: 2056565913}
   m_Layer: 10
   m_Name: Tree Cutout
   m_TagString: Untagged
@@ -33153,6 +38930,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &2056565913
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1969950409}
+  m_GameObject: {fileID: 2056565908}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &2056565914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 54de6c47663cf4f578ffe3d16a6d5749,
+    type: 2}
+  m_PrefabInternal: {fileID: 1969950409}
+  m_GameObject: {fileID: 2056565908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 2056565913}
+  collisionSoundLength: 1
 --- !u!1 &2059044441
 GameObject:
   m_ObjectHideFlags: 0
@@ -33445,6 +39295,8 @@ GameObject:
   - 95: {fileID: 2087202031}
   - 54: {fileID: 2087202030}
   - 65: {fileID: 2087202029}
+  - 114: {fileID: 2087202033}
+  - 82: {fileID: 2087202032}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -33509,6 +39361,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &2087202032
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 930893251}
+  m_GameObject: {fileID: 2087202027}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &2087202033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 930893251}
+  m_GameObject: {fileID: 2087202027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 2087202032}
+  collisionSoundLength: 1
 --- !u!1 &2092932956
 GameObject:
   m_ObjectHideFlags: 0
@@ -33964,6 +39889,8 @@ GameObject:
   - 95: {fileID: 2118276033}
   - 54: {fileID: 2118276032}
   - 65: {fileID: 2118276031}
+  - 114: {fileID: 2118276035}
+  - 82: {fileID: 2118276034}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -34028,6 +39955,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &2118276034
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 706840086}
+  m_GameObject: {fileID: 2118276029}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &2118276035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 706840086}
+  m_GameObject: {fileID: 2118276029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 2118276034}
+  collisionSoundLength: 1
 --- !u!1001 &2121000245
 Prefab:
   m_ObjectHideFlags: 0
@@ -34150,6 +40150,8 @@ GameObject:
   - 95: {fileID: 2126658682}
   - 54: {fileID: 2126658681}
   - 65: {fileID: 2126658680}
+  - 114: {fileID: 2126658684}
+  - 82: {fileID: 2126658683}
   m_Layer: 8
   m_Name: Horse Cutout
   m_TagString: Untagged
@@ -34214,6 +40216,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &2126658683
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1845719392}
+  m_GameObject: {fileID: 2126658678}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &2126658684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 077c3d0d010474ef0a37f77ce7632834,
+    type: 2}
+  m_PrefabInternal: {fileID: 1845719392}
+  m_GameObject: {fileID: 2126658678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 2126658683}
+  collisionSoundLength: 1
 --- !u!1 &2133050669
 GameObject:
   m_ObjectHideFlags: 0
@@ -34698,6 +40773,8 @@ GameObject:
   - 95: {fileID: 2144788703}
   - 54: {fileID: 2144788702}
   - 65: {fileID: 2144788701}
+  - 114: {fileID: 2144788705}
+  - 82: {fileID: 2144788704}
   m_Layer: 10
   m_Name: Boulder Pile Cutout
   m_TagString: Untagged
@@ -34762,6 +40839,79 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &2144788704
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1985665643}
+  m_GameObject: {fileID: 2144788699}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &2144788705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: fcd2a27fd447b486082db7d495c76142,
+    type: 2}
+  m_PrefabInternal: {fileID: 1985665643}
+  m_GameObject: {fileID: 2144788699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 2144788704}
+  collisionSoundLength: 1
 --- !u!1 &2145598089
 GameObject:
   m_ObjectHideFlags: 0
@@ -34773,6 +40923,8 @@ GameObject:
   - 95: {fileID: 2145598093}
   - 54: {fileID: 2145598092}
   - 65: {fileID: 2145598091}
+  - 114: {fileID: 2145598095}
+  - 82: {fileID: 2145598094}
   m_Layer: 8
   m_Name: Store Cutout
   m_TagString: Untagged
@@ -34837,3 +40989,76 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!82 &2145598094
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8200000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 754701602}
+  m_GameObject: {fileID: 2145598089}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 517521b18e8a56f428341161baf34cf8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &2145598095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: a534ee2cb03bc44ca9d7acc354d3b02a,
+    type: 2}
+  m_PrefabInternal: {fileID: 754701602}
+  m_GameObject: {fileID: 2145598089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd883724a13f7274493b5a57767c5689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 2145598094}
+  collisionSoundLength: 1
