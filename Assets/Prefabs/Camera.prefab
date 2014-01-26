@@ -98,7 +98,7 @@ MonoBehaviour:
   skyboxes:
   - {fileID: 2100000, guid: 11f9b9574aa5b4c96be254e0a736107e, type: 2}
   - {fileID: 2100000, guid: 11f9b9574aa5b4c96be254e0a736107e, type: 2}
-  - {fileID: 2100000, guid: 11f9b9574aa5b4c96be254e0a736107e, type: 2}
+  - {fileID: 2100000, guid: d461210d3a415410181aa5201e0aa5ce, type: 2}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
