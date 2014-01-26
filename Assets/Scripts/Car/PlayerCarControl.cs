@@ -14,8 +14,7 @@ public class PlayerCarControl : MonoBehaviour {
 		const float forwardForce = 1000;
 		float timeMultiplier = Time.deltaTime;
 
-		bool goForward = Input.GetKey (KeyCode.W);
-		bool goBack = Input.GetKey (KeyCode.S);
+		float vaxis = Input.GetAxis ("Vertical");
 		float haxis = Input.GetAxis ("Horizontal");
 
 		// Faster the car goes, smaller the multiplier.
@@ -25,11 +24,11 @@ public class PlayerCarControl : MonoBehaviour {
 		bool onGround = true;
 
 		// The care is backward-facing, throwing in -1 for now.
-		if (onGround && goForward)
-			rigidbody.AddRelativeForce (transform.forward * (-1*forwardForce * timeMultiplier));
-		else if (onGround && goBack)
-			rigidbody.AddRelativeForce (transform.forward * (-1*-forwardForce * timeMultiplier * reverseMultiplier));
+		if (onGround){
+			rigidbody.AddRelativeForce (transform.forward * (vaxis*forwardForce * timeMultiplier));
+		}
 
-		transform.Rotate (Vector3.forward, haxis * maxWheelRotate * timeMultiplier, Space.Self);
+		rigidbody.MoveRotation(Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(transform.forward), haxis * timeMultiplier));
+//		rigidbody.MoveRotation(Vector3.up, haxis * maxWheelRotate * timeMultiplier, Space.Self);
 	}
 }
