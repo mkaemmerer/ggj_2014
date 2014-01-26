@@ -52,7 +52,7 @@ public class FollowRoad : MonoBehaviour {
 		GameObject[] checkpoints = GameObject.FindGameObjectsWithTag("Checkpoint");
 		return checkpoints
 			//Only look at checkpoints on the current layer
-			.Where(obj => obj.layer == manager.CurrentLayer.value)
+			.Where(obj => obj.layer == gameObject.layer)
 			//Only look at checkpoints that are ahead of us
 			.Where(obj => Vector3.Dot(obj.transform.position - transform.position, transform.forward) > 0)
 			.ToArray();
