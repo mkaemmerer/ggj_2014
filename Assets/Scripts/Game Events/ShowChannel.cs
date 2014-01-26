@@ -11,7 +11,6 @@ public class ShowChannel : MonoBehaviour {
 
 	void OnChannelChange (LayerMask layer) {
 		cam.cullingMask = 1 << layer;
-		Debug.Log(cam.cullingMask);
 	}
 	void OnGhostChannelChange (LayerMask layer) {
 		cam.cullingMask = cam.cullingMask | (1 << layer);
