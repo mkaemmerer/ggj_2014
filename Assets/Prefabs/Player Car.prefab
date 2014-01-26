@@ -705,7 +705,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 2
   moveSpeed: 8
-  turnThreshold: .100000001
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -718,6 +717,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSensitivity: 1
+  minTurnSpeed: .5
+  maxTurnSpeed: .699999988
+  screechThresh: .600000024
+  turnAcceleration: .100000001
+  curTurnSpeed: 0
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -796,8 +800,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   engineOutput: {fileID: 8200004}
   tireOutput: {fileID: 8200006}
-  squealMin: 0
-  squealMax: 0
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1
