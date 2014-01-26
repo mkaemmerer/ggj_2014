@@ -39,7 +39,7 @@ public class SoundTrack : MonoBehaviour {
 
 		changeSound.Play ();
 
-		output.time = progress * output.clip.length + 0.5f;
-		output.PlayDelayed (0.5f);
+		output.time = progress * output.clip.length + 0.2f;
+		output.PlayDelayed (0.2f);
 	}
 }

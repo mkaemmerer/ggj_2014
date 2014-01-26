@@ -5,7 +5,7 @@ public class ShowChannel : MonoBehaviour {
 
 	private Camera cam;
 
-	void Start(){
+	void Awake(){
 		cam = gameObject.GetComponent<Camera>();
 	}
 

@@ -11,7 +11,7 @@ GameObject:
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
   - 95: {fileID: 9500000}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 33: {fileID: 3300002}
   - 23: {fileID: 2300002}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wheel_Front_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 33: {fileID: 3300004}
   - 23: {fileID: 2300004}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wheel_Back_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +62,7 @@ GameObject:
   - 4: {fileID: 400006}
   - 33: {fileID: 3300006}
   - 23: {fileID: 2300006}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wheel_Front_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   - 4: {fileID: 400008}
   - 33: {fileID: 3300008}
   - 23: {fileID: 2300008}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wheel_Back_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   - 114: {fileID: 11400006}
   - 54: {fileID: 5400000}
   - 65: {fileID: 6500000}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Enemy Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
-  m_LocalPosition: {x: 1.30590057, y: -2.05513215, z: 14.9210548}
+  m_LocalPosition: {x: 58.9179993, y: .167770371, z: 40.9511223}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -354,7 +354,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .449999988, y: .330000013, z: .680000007}
-  m_Center: {x: 0, y: .200000003, z: 0}
+  m_Center: {x: 0, y: .239999995, z: 0}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seconds: 10
-  hasRemote: 0
+  hasRemote: 1
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
